@@ -188,6 +188,14 @@ Azure Container Instances (ACI) have following benefits:
 - Increase agility with containers on demand
 - Secure applications with hypervisor isolation
 - Works with your favorite tools
+###### Compare virtual machines to containers
+|VMs|containers|
+|---|----------|
+|virtual machine virtualize the hardware|containers virtualize the OS|
+|if you want complete control of the machine then choose VM|if you want performance characteristics, management capabilities, portability use containers|
+
+<i>[more here](https://raw.githubusercontent.com/collabnix/dockerlabs/master/beginners/docker-vs-vm.png)</i>
+
 ### Azure Kubernetes Service
 Kubernetes is an open-source container orchestration system for automating application deployment, management, and scaling. **Azure Kubernetes Service (AKS)** enables the simplest deployment of a managed Kubernetes cluster in Azure. AKS eliminates the complexity and operating overheads of Kubernetes management by offloading many responsibilities to Azure. The masters of the Kubernetes are managed by Azure. Only the agent nodes are managed and maintained by you. As a
 managed Kubernetes service, AKS is free; you only pay for the agent nodes within your clusters, not for the masters.
